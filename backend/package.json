@@ -1,18 +1,18 @@
 {
   "name": "distributeur-backend",
   "version": "1.0.0",
-  "description": "API pour système distributeur automatique",
+  "description": "API pour système distributeur automatique avec PostgreSQL",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"No tests\" && exit 0"
   },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "uuid": "^9.0.1"
+    "pg": "^8.11.3"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=18.0.0"
   }
-
 }
